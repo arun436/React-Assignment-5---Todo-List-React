@@ -33,7 +33,7 @@ const TodoListItem = (props) => {
                 </>
             ) : (
                 <>
-                {props.todo.value}(<a href="#" onClick={startEditing}>Edit</a> | <a href="#" onClick={deleteTodo}>Delete</a>)
+                {props.todo.value} <button className="edit" onClick={startEditing}>Edit</button>  <button className="delete" onClick={deleteTodo}>Delete</button>
                 </>
             )}
             
