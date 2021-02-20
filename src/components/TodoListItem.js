@@ -29,7 +29,7 @@ const TodoListItem = (props) => {
             {props.todo.isEditing ? (
                 <>
                 <textarea className="editTask" onChange={changeTodoValue} defaultValue={TodoValue}></textarea>
-                <button className="saveTask" onClick={finishEditing}>Update Todo</button>
+                <button className="saveTask" onClick={finishEditing}>save</button>
                 </>
             ) : (
                 <>
